@@ -29,6 +29,10 @@ body{
     height: 40px;
     padding: 30px;
     margin-top: 110px;
+    margin-left: 80px;
+}
+.logo span{
+    font-size: 40px;
 }
 .logo h2{
     font-weight: 400;
@@ -141,6 +145,43 @@ border-bottom: 1px solid white;
     hr{
         margin-top: 30px;
     }
+    #title{
+        font-size: 18px;
+        font-weight: 400;
+       color: white;
+       margin-bottom: 80px;
+       font-family: "Roboto", serif;
+
+    }
+.content{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom: 90px;
+}
+.content span{
+    color: #FFFFFF;
+    font-size:32px;
+}
+.content h6{
+    font-size: 18px;
+    font-weight: 400;
+   color: #FFFFFF;
+margin: 0px;
+font-family: "Roboto", serif;
+
+}
+.content h5{
+    font-size: 18px;
+    font-weight: 400;
+  color: #FFFFFFB2;
+  margin: 0px;
+  font-family: "Roboto", serif;
+
+}
+
+
+
     @media(max-width:600px){
         .container{
             background: url(./imges/bg-weather-2.png);
