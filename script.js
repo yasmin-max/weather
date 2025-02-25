@@ -23,6 +23,10 @@ function getWeather(){
                 document.getElementById('iconw').textContent=`${iconw[4]}`
             }
             document.getElementById('temp_max').textContent=`${data.main.temp_max}`
+            document.getElementById('temp_min').textContent=`${data.main.temp_min}`
+            document.getElementById('humidity').textContent=`${data.main.humidity}`
+            document.getElementById('clouds').textContent=`${data.clouds.all}`
+           document.getElementById('wind').textContent=`${data.wind.speed}`
         }
     }
     request.send();
